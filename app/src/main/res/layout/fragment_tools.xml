@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.mostafamohamed.Chat.SettingsActivity">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:id="@+id/set_profile_image"
+        android:src="@drawable/profile_image"
+        app:civ_border_width="5dp"
+        app:civ_border_color="@color/colorPrimary"/>
+
+
+
+    <EditText
+        android:id="@+id/set_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/set_profile_image"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:hint="username"
+        android:inputType="textMultiLine"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/set_user_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/set_user_name"
+        android:hint="add a few words about yourself "
+        android:inputType="textMultiLine"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/Change_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/set_user_status"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:inputType="textMultiLine"
+        android:padding="6dp"
+        android:text="Update"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>

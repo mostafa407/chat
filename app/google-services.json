@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "265366950099",
+    "firebase_url": "https://chat-2953e.firebaseio.com",
+    "project_id": "chat-2953e",
+    "storage_bucket": "chat-2953e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265366950099:android:1ebf2bc8058fb9e4f78426",
+        "android_client_info": {
+          "package_name": "com.mostafamohamed.quran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265366950099-rm2nqdt27d533ds3r790fal0oool39j6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mostafamohamed.quran",
+            "certificate_hash": "63cf431b66033e6aa7dbcdcbdb1c7548d291e3b1"
+          }
+        },
+        {
+          "client_id": "265366950099-mjmk9hn5m8o6odkksdi3jr5i5kbtjo3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIl1g9VqTs5nyWlSx_Iui4-ESU-zGYdPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265366950099-mjmk9hn5m8o6odkksdi3jr5i5kbtjo3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

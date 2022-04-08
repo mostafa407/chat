@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="phoneNumber" type="id" />
+    <item name="code" type="id" />
+    <item name="send" type="id" />
+    <item name="nav_home" type="id"/>
+   
+
+</resources>
